@@ -1,0 +1,27 @@
+{
+  "name": "resume-parser-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "googleapis": "^148.0.0",
+    "isomorphic-fetch": "^3.0.0",
+    "multer": "^1.4.5-lts.2",
+    "open": "^10.1.2",
+    "pdf-parse": "^1.1.1"
+  }
+}
